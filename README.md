@@ -1,6 +1,6 @@
-# Java SaaS Lab — 20 Junior → Medior Java 17 Alkalmazás ☕
+# Java SaaS Lab — 24 Junior → Medior Java 17 Alkalmazás ☕
 
-**20 önálló, lefordított és tesztelt Java 17 (külső függőség nélküli) SaaS építőkockát** tartalmazó portfólió repó — `record`, `BigDecimal`, `MessageDigest`, `HmacSHA256`, `ThreadLocal` multi-tenancy, LRU/TTL cache, Circuit Breaker, Hash-láncos audit napló és állapotgép.
+**24 önálló, lefordított és tesztelt Java 17 (külső függőség nélküli) SaaS építőkockát** tartalmazó portfólió repó — `record`, `BigDecimal`, `MessageDigest`, `HmacSHA256`, `ThreadLocal` multi-tenancy, LRU/TTL cache, Circuit Breaker, Hash-láncos audit napló és állapotgép.
 
 🌐 Portfólió: [cuppashot.hu](https://cuppashot.hu) · 👤 Készítette: **Pék Richárd**
 
@@ -9,7 +9,7 @@
 bash run_all_tests.sh
 ```
 
-## Projektek (20 db)
+## Projektek (24 db)
 
 | # | Alkalmazás | Szint | Leírás |
 |---|---|---|---|
@@ -33,3 +33,7 @@ bash run_all_tests.sh
 | `18` | **[Mini REST API Router & Middleware](./18-mini-rest-router/)** | Medior | Útválasztó és válasz-módosító middleware minta Java 17 recordokkal. |
 | `19` | **[Strukturált Számla-összesítő Generátor](./19-invoice-text-generator/)** | Junior | Tételsorokból formázott nettó/ÁFA/bruttó számla-összesítő `BigDecimal` pontossággal. |
 | `20` | **[AI Token & Költségbecslő Modul (Java)](./20-ai-prompt-cost-estimator/)** | Medior | Prompt-sablon renderelés és LLM API token-költség becslés Java SaaS backendekhez. |
+| `21` | **[HMAC-SHA256 Aláírt Token Motor (Java 17)](./21-signed-token/)** | Medior | Base64url + `HmacSHA256` stateless hitelesítési token generálás és lejárati idő ellenőrzés. |
+| `22` | **[Hierarchikus Multi-Tenant Konfiguráció-feloldó](./22-multi-tenant-config/)** | Medior | Globális alapérték → előfizetési csomag → ügyfélszintű felülírás kezelése. |
+| `23` | **[HTML-Escape-elt Tranzakciós Sablonmotor](./23-template-engine/)** | Junior+ | Változó-behelyettesítő és XSS-elleni HTML-escape motor kötelező kulcs ellenőrzéssel. |
+| `24` | **[Exponenciális Backoff Újrapróbáló Motor](./24-retry-backoff/)** | Medior | Átmeneti hálózati/API hibák kezelése exponenciálisan növekvő várakozási idővel (`base * 2^attempt`). |
